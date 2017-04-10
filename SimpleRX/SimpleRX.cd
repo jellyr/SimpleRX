@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SimpleRX.ObservableExtensions">
+    <Position X="4.5" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ObservableExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.Observer&lt;T&gt;">
+    <Position X="4.5" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAACAAAIAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Observer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleRX.CurrentThreadScheduler">
+    <Position X="10" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CurrentThreadScheduler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleRX.TaskScheduler">
+    <Position X="12.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TaskScheduler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleRX.ThreadPoolScheduler">
+    <Position X="10" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ThreadPoolScheduler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleRX.ThreadScheduler">
+    <Position X="12.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ThreadScheduler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleRX.DisposeObject&lt;T&gt;">
+    <Position X="4.75" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\DisposeObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleRX.GroupedObserver&lt;T, TKey&gt;">
+    <Position X="11" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAACAAAIAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>GroupedObserver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleRX.Subject&lt;T&gt;">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACAACCAAAYAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Subject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleRX.Subjects">
+    <Position X="0.5" Y="11.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.Observable">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>MKSACECeGAAgCQAgFAMSCAQQCAEIAEAEAYMC0EAUUAA=</HashCode>
+      <FileName>Observable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SimpleRX.IScheduler">
+    <Position X="11.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IScheduler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.IObservable&lt;T&gt;">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.IObserver&lt;T&gt;">
+    <Position X="4.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="SimpleRX.IGroupedObservable&lt;T, TKey&gt;">
+    <Position X="7.75" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGroupedObservable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

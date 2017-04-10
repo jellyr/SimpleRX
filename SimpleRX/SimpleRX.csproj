@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A6B172A-F4D9-4BEB-BBFB-CC64CAC63691}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SimpleRX</RootNamespace>
+    <AssemblyName>SimpleRX</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AprioriAlgorithm\Apriori.cs" />
+    <Compile Include="AprioriAlgorithm\AssociationItem.cs" />
+    <Compile Include="AprioriAlgorithm\AssociationRules.cs" />
+    <Compile Include="AprioriAlgorithm\BestWordRecognizer.cs" />
+    <Compile Include="AprioriAlgorithm\Item.cs" />
+    <Compile Include="AprioriSubject.cs" />
+    <Compile Include="CurrentThreadScheduler.cs" />
+    <Compile Include="GroupedObserver.cs" />
+    <Compile Include="IGroupedObservable.cs" />
+    <Compile Include="IScheduler.cs" />
+    <Compile Include="LevenshteinSubject.cs" />
+    <Compile Include="Observable.cs" />
+    <Compile Include="ObservableExtensions.cs" />
+    <Compile Include="Observer.cs" />
+    <Compile Include="IParallelObservable.cs" />
+    <Compile Include="ParallelObservableExtensions.cs" />
+    <Compile Include="ParallelObservableGenerator.cs" />
+    <Compile Include="ParallelObserver.cs" />
+    <Compile Include="ParallelSubjects\ParallelBaseSubject.cs" />
+    <Compile Include="ParallelSubjects\ParallelGenerateSubject.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Subject.cs" />
+    <Compile Include="Subjects.cs" />
+    <Compile Include="SubjectSubjects\MinSubjectSubjectInt.cs" />
+    <Compile Include="Subjects\AggregateSubject.cs" />
+    <Compile Include="Subjects\AllSubject.cs" />
+    <Compile Include="Subjects\AmbSubject.cs" />
+    <Compile Include="Subjects\AnySubject.cs" />
+    <Compile Include="Subjects\AverageSubject.cs" />
+    <Compile Include="Subjects\BaseSubject.cs" />
+    <Compile Include="Subjects\BufferSubject.cs" />
+    <Compile Include="Subjects\CastSubject.cs" />
+    <Compile Include="Subjects\CatchSubject.cs" />
+    <Compile Include="Subjects\ConcatSubject.cs" />
+    <Compile Include="Subjects\ContainsSubject.cs" />
+    <Compile Include="Subjects\CountSubject.cs" />
+    <Compile Include="Subjects\CreateSubject.cs" />
+    <Compile Include="Subjects\DelaySubject.cs" />
+    <Compile Include="Subjects\DisposeObject.cs" />
+    <Compile Include="Subjects\DistinctSubject.cs" />
+    <Compile Include="Subjects\DistinctUntilChangedSubject.cs" />
+    <Compile Include="Subjects\DoSubject.cs" />
+    <Compile Include="Subjects\ElementAtSubject.cs" />
+    <Compile Include="Subjects\EmptySubject.cs" />
+    <Compile Include="Subjects\FinallySubject.cs" />
+    <Compile Include="Subjects\FirstOrDefaultSubject.cs" />
+    <Compile Include="Subjects\FirstSubject.cs" />
+    <Compile Include="Subjects\ForeachSubject.cs" />
+    <Compile Include="Subjects\FromAsyncPatternSubject.cs" />
+    <Compile Include="Subjects\FromAsyncSubject.cs" />
+    <Compile Include="Subjects\FromEventSubject.cs" />
+    <Compile Include="Subjects\GenerateSubject.cs" />
+    <Compile Include="Subjects\GenerateWithTimeSubject.cs" />
+    <Compile Include="Subjects\GroupByObservableSubject.cs" />
+    <Compile Include="Subjects\GroupBySubject.cs" />
+    <Compile Include="Subjects\GroupBySubSubject.cs" />
+    <Compile Include="Subjects\LastOrDefaultSubject.cs" />
+    <Compile Include="Subjects\LastSubject.cs" />
+    <Compile Include="Subjects\LookupSubject.cs" />
+    <Compile Include="Subjects\MinSubject.cs" />
+    <Compile Include="Subjects\NeverSubject.cs" />
+    <Compile Include="Subjects\ObserveOnSubject.cs" />
+    <Compile Include="Subjects\RangeSubject.cs" />
+    <Compile Include="Subjects\RepeatSubject.cs" />
+    <Compile Include="Subjects\ReturnSubject.cs" />
+    <Compile Include="Subjects\ScanSubject.cs" />
+    <Compile Include="Subjects\SelectManySubject.cs" />
+    <Compile Include="Subjects\SelectSubject.cs" />
+    <Compile Include="Subjects\SkipSubject.cs" />
+    <Compile Include="Subjects\StartWithSubject.cs" />
+    <Compile Include="Subjects\TakeSubject.cs" />
+    <Compile Include="Subjects\ThrottleSubject.cs" />
+    <Compile Include="Subjects\ThrowSubject.cs" />
+    <Compile Include="Subjects\TimerSubject.cs" />
+    <Compile Include="Subjects\Timestamped.cs" />
+    <Compile Include="Subjects\TimestampedSubject.cs" />
+    <Compile Include="Subjects\TransformSubject.cs" />
+    <Compile Include="Subjects\WhereSubject.cs" />
+    <Compile Include="Subjects\ZipSubject.cs" />
+    <Compile Include="TaskScheduler.cs" />
+    <Compile Include="ThreadPoolScheduler.cs" />
+    <Compile Include="ThreadScheduler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleRX.cd" />
+    <None Include="Subjects\BaseSubjects.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="license.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SimpleRX.AggregateSubject&lt;T&gt;">
+    <Position X="2.75" Y="0.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SimpleRX.AggregateSubject&lt;T&gt;.ThreadExecuter&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Subjects\AggregateSubject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAYAAAAACACQAAAAACAAAAAAAAACQAA=</HashCode>
+      <FileName>Subjects\AggregateSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.AllSubject&lt;T&gt;">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAZAAAAAAACQAAAAAAAAAAAAAAACIAA=</HashCode>
+      <FileName>Subjects\AllSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.AmbSubject&lt;T&gt;">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAQAAgEABAAAAAAAIIACAAAAAIAAABA=</HashCode>
+      <FileName>Subjects\AmbSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.AmbSubjectArray&lt;T&gt;">
+    <Position X="8.5" Y="0.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SimpleRX.AmbSubjectArray&lt;T&gt;.AmbSubjectObject&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Subjects\AmbSubject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="SimpleRX.AmbSubjectArray&lt;T&gt;.Reactor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Subjects\AmbSubject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAYAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\AmbSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.AnySubject&lt;T&gt;">
+    <Position X="11.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYAAAAAAACQAAAAAAAAAAAAAAACIAA=</HashCode>
+      <FileName>Subjects\AnySubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.AverageSubject&lt;T&gt;">
+    <Position X="13" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYABAAAAACQAAAAACAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\AverageSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.BufferSubject&lt;T, T1&gt;">
+    <Position X="0.5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAQARAAAAACQAAAAAAAAAABAAAACAAA=</HashCode>
+      <FileName>Subjects\BufferSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.DelaySubject&lt;T&gt;">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAQAAAAAAACQAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\DelaySubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.DisposeObject&lt;T&gt;">
+    <Position X="4.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\DisposeObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleRX.DistinctSubject&lt;T&gt;">
+    <Position X="7" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAACQAAAAACAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\DistinctSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.DistinctUntilChangedSubject&lt;T&gt;">
+    <Position X="9.5" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAQAAAAAAACQAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\DistinctUntilChangedSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.DoSubject&lt;T&gt;">
+    <Position X="12.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAYAAAAAAACQAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\DoSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.ElementAtSubject&lt;T&gt;">
+    <Position X="0.5" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYAAAAAAACQAAAAAAAAAACAAAADAAA=</HashCode>
+      <FileName>Subjects\ElementAtSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.EmptySubject&lt;T&gt;">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\EmptySubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.ForeachSubject&lt;T&gt;">
+    <Position X="4.75" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAYAAAAAAACQAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\ForeachSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.FromAsyncPatternSubject&lt;T1, T2, T3, TResult&gt;">
+    <Position X="17.5" Y="8.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAQgAAAAAAAUAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\FromAsyncPatternSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.FromAsyncPatternSubject&lt;T1, T2, TResult&gt;">
+    <Position X="13.75" Y="8.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAQgAAAAAAAUAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\FromAsyncPatternSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.FromAsyncPatternSubject&lt;T1, TResult&gt;">
+    <Position X="10.25" Y="8.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAQgAAAAAAAUAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\FromAsyncPatternSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.FromAsyncPatternSubject&lt;TResult&gt;">
+    <Position X="7" Y="8.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAQgAAAAAAAUAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\FromAsyncPatternSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.GenerateSubject">
+    <Position X="2.75" Y="12" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SimpleRX.GenerateSubject.ThreadExecuter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Subjects\GenerateSubject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAQAAAgAAAAAAAAQAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Subjects\GenerateSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.GenerateWithTimeSubject">
+    <Position X="4.75" Y="12" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SimpleRX.GenerateWithTimeSubject.ThreadExecuter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Subjects\GenerateWithTimeSubject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAAAAAAQAAAggAAAAAAAQAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Subjects\GenerateWithTimeSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.MinSubjectInt">
+    <Position X="9.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYAAAAIAACQAAAAABAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\MinSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.MinSubjectDouble">
+    <Position X="7.25" Y="12" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYAAAAIAACQAAAAABAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\MinSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.NeverSubject&lt;T&gt;">
+    <Position X="11.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\NeverSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.RangeSubject">
+    <Position X="0.5" Y="16.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SimpleRX.RangeSubject.ThreadExecuter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Subjects\RangeSubject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAQAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\RangeSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.RepeatSubject&lt;T&gt;">
+    <Position X="2.75" Y="16.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SimpleRX.RepeatSubject&lt;T&gt;.ThreadExecuter&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Subjects\RepeatSubject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAgAAAAAAAAAAACAAAAAAAEAAAAA=</HashCode>
+      <FileName>Subjects\RepeatSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.ReturnSubject&lt;T&gt;">
+    <Position X="5" Y="16.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\ReturnSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.ReturnSubjectArray&lt;T&gt;">
+    <Position X="10" Y="16.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\ReturnSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.ReturnSubjectCollection&lt;T&gt;">
+    <Position X="7.25" Y="16.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\ReturnSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.ThrottleSubject&lt;T&gt;">
+    <Position X="0.5" Y="19.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAQAAAAAAACQAAAAAAAAAAgAAAACAAA=</HashCode>
+      <FileName>Subjects\ThrottleSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.ThrowSubject&lt;T&gt;">
+    <Position X="2.75" Y="19.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\ThrowSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.TimerSubject&lt;T&gt;">
+    <Position X="5" Y="19.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Subjects\TimerSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.TimestampedSubject&lt;T&gt;">
+    <Position X="7.25" Y="19.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAACQAAAAAABAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\TimestampedSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.WhereSubject&lt;T&gt;">
+    <Position X="10" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAZAAAAAAACQAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\WhereSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.ZipSubject&lt;TFirst, TSecond, TResult&gt;">
+    <Position X="0.5" Y="22.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAgEAAACQAAAAAAAAAAAAAAAiAAA=</HashCode>
+      <FileName>Subjects\ZipSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.FromEventSubject&lt;T&gt;">
+    <Position X="15.75" Y="0.75" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SimpleRX.FromEventSubject&lt;T&gt;.EventAdd&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Subjects\FromEventSubject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAABAAAAAAAAACAAAAgAAAAAAA=</HashCode>
+      <FileName>Subjects\FromEventSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.FromEventActionSubject&lt;TEventArgs&gt;">
+    <Position X="15.75" Y="5.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAgAAAAAAQAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\FromEventSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.FromEventFuncSubject&lt;TDelegate, TEventArgs&gt;">
+    <Position X="19.25" Y="0.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAgAAAAAAQAAAAAAAAIAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\FromEventSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.FromEventFuncGenericSubject&lt;TDelegate, TEventArgs&gt;">
+    <Position X="19.5" Y="5.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAgAAAAgAUAAAAAAAAIAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\FromEventSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.TakeSubject&lt;T&gt;">
+    <Position X="15.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYABAAAAACQAAAAAAEAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\TakeSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.SkipSubject&lt;T&gt;">
+    <Position X="13.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYABAAAAACQAAAAAAEAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\SkipSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.ObserveOnSubject&lt;T&gt;">
+    <Position X="17.75" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYAAAAAAACQAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\ObserveOnSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.StartWithSubject&lt;T&gt;">
+    <Position X="10" Y="22.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAYAAAAAAACQAAAAACAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\StartWithSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.ConcatSubject&lt;T&gt;">
+    <Position X="5" Y="22.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAgAAAAAAAQABABAAAAQAAAAAKAAAAAAEAQAABA=</HashCode>
+      <FileName>Subjects\ConcatSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.GroupBySubject&lt;T, TKey&gt;">
+    <Position X="8.5" Y="27" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAYAAAAAAACUAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\GroupBySubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.GroupBySubSubject&lt;T, TKey&gt;">
+    <Position X="10.75" Y="27" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYAAAAEAACQAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\GroupBySubSubject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleRX.GroupByObservableSubject&lt;T&gt;">
+    <Position X="13.25" Y="27" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAQAAAAAAAAAAAgCACAAAAAgAAAAAAA=</HashCode>
+      <FileName>Subjects\GroupByObservableSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.BaseSubject&lt;T&gt;">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAIAAAgAAAAAAQAAAAAAAAAAEgCAABAAAAAAAAgAAA=</HashCode>
+      <FileName>Subjects\BaseSubject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleRX.ScanSubject&lt;T&gt;">
+    <Position X="0.5" Y="27" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAYEAAAAAACQAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\ScanSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.SelectSubject&lt;T, TResult&gt;">
+    <Position X="3" Y="27" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAYAAAAAAACQAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\SelectSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.SelectManySubject&lt;T, TResult&gt;">
+    <Position X="5.5" Y="27" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAYAAAAAAACQAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\SelectManySubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.LookupSubject&lt;T, TKey&gt;">
+    <Position X="1.75" Y="30.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAYAAAAAAACQACAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Subjects\LookupSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRX.Lookup&lt;TKey, TElement&gt;">
+    <Position X="3" Y="33.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAAAAAAIABAACAAAAAQAACAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Subjects\LookupSubject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleRX.Grouping&lt;TKey, TElement&gt;">
+    <Position X="0.5" Y="33.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QCIAAAAAAAAAABQAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subjects\LookupSubject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="SimpleRX.Timestamped&lt;T&gt;">
+    <Position X="7.25" Y="22.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Subjects\Timestamped.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="System.IObservable&lt;T&gt;">
+    <Position X="12.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
